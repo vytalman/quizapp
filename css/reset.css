@@ -22,29 +22,19 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 body {
 	line-height: 1;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 ol, ul {
 	list-style: none;
 }
-
 blockquote, q {
 	quotes: none;
-}
-
-body, html {
-	height: 100%;
-	background: radial-gradient(#9CAAF2, #7885F2, #2A24F2);
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -54,8 +44,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-* {
-	outline: red 1px solid;
 }
