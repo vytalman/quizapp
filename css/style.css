@@ -2,20 +2,6 @@
 	outline: red 1px solid;
 }
 
-body, html {
-	height: 100%;
-	background: radial-gradient(#9CAAF2, #7885F2, #2A24F2);
-}
-
-body {
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 header {
 	text-align: center;
-}
-
-h1 {
-	font-family: 'Press Start 2P', cursive;
-	text-shadow: 2px 2px 2px #363432;
 }
