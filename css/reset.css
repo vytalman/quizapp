@@ -57,10 +57,21 @@ body {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+header {
+	padding: 0.0625em 0;
+	margin-bottom: 0.0625em;
+}
+
 h1 {
 	font-family: 'Press Start 2P', cursive;
 	font-size: 2em;
-	padding: 1em 0;
+	padding: 0.6875em 0 0.1875em;
 	margin: 0 6em;
 	text-shadow: 2px 2px 2px #363432;
+}
+
+h2 {
+	font-size: 1.25em;
+	padding: 0.25em 0 0.375em;
+	margin: 0.5em 9.59375em;
 }
