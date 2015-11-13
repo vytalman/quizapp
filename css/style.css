@@ -9,3 +9,16 @@ header {
 #play-area {
 	text-align: center;
 }
+
+#questions {
+	background: white;
+	width: 56em;
+	height: 18.75em;
+	margin: 1em auto;
+	box-shadow: 2px 2px 10px;
+}
+
+#tv {
+	box-shadow: 5px 5px 10px;
+	border-radius: 12px;
+}
