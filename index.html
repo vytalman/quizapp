@@ -13,12 +13,35 @@
 <body>
 	<header>
 		<h1>Vintage Video Game Quiz</h1>
-		<h2>Question </h2>
+		<h2>
+			Question 
+			<span id="quest-count">1</span>
+			of
+			<span id="total-quest">5</span>
+		</h2>
 	</header>
-	<section id="play-area">
+	<section id="game-area">
 		<img id="tv" src="images/vintage-tv.png">
-		<div id="questions">
-			
+		<div id="play-container">
+			<div id="question-container">
+				<span id="question">Which video game does this character appear in?</span>
+			</div>
+			<div id="selection-container">
+				<ul>
+					<li>
+						<button class="answer">Legend of Zelda: Ocarina of Time</button>
+					</li>
+					<li>
+						<button class="answer">Ghost 'n Goblins</button>
+					</li>
+					<li>
+						<button class="answer">Final Fantasy II</button>
+					</li>
+					<li>
+						<button class="answer">Legend of Zelda: A Link to the Past</button>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</section>
 </body>
