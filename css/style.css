@@ -43,3 +43,9 @@
 ul {
 	-webkit-column-count: 2;
 }
+
+.character {
+	position: absolute;
+	left: 555px;
+	top: 156px;
+}
