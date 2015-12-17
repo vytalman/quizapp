@@ -19,6 +19,15 @@
 	border-radius: 12px;
 }
 
+#start-text {
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 2px 2px 2px #363432;
+}
+
+#nes-controller {
+	box-shadow: 5px 5px 10px;
+}
+
 #question-container {
 	font-size: 1.25em;
 	margin: 0.5625em 0;

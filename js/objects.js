@@ -1,3 +1,8 @@
+var start = {
+	image: "images/start-tv.png",
+	startButton: "Press Start"
+};
+
 var question1 = {
 	image: "images/image1.png",
 	question: "Which video game does this character appear in?",
@@ -24,7 +29,7 @@ var question4 = {
 	question: "What is the name of the character who is kidnapped in the game this battletoad belongs to, kicking off the adventure?",
 	options: ["Zitz", "Rash", "Blackhead", "Pimple"],
 	answer: "Pimple"
-}:
+};
 
 var question5 = {
 	image: "images/image5.png",

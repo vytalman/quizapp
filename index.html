@@ -15,14 +15,24 @@
 	<header>
 		<h1>Vintage Video Game Quiz</h1>
 		<h2>
-			Question 
-			<span id="quest-count">1</span>
-			of
-			<span id="total-quest">5</span>
+			<div id="start-text">
+				Press Start
+			</div>
+			<div id="counter">
+				Question 
+				<span id="quest-count">1</span>
+				of
+				<span id="total-quest">5</span>
+			</div>
 		</h2>
 	</header>
 	<section id="game-area">
-		<img id="tv" src="images/image1.png">
+		<img id="nes-controller" src="images/nes-controller.png" usemap="#nesmap">
+		
+		<map name="nesmap">
+			<area shape="rect" coords="237,134,292,178" href="javascript:startGame();">
+		</map>
+		<img id="tv" src="images/vintage-tv.png">
 		<div id="play-container">
 			<div id="question-container">
 				<span id="question">Which video game does this character appear in?</span>
