@@ -1,8 +1,3 @@
-var start = {
-	image: "images/start-tv.png",
-	startButton: "Press Start"
-};
-
 var question1 = {
 	image: "images/image1.png",
 	question: "Which video game does this character appear in?",
