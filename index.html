@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-
-	<meta charset="UTF-8">
-	<title>Vintage Video Game Quiz</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/objects.js"></script>
-</head>
-<body>
-	<header>
-		<h1>Vintage Video Game Quiz</h1>
-		<h2>
-			<div id="start-text" class="hide-after-start">
-				Press Start
-			</div>
-			<div id="counter" class="start-hidden">
-				Question 
-				<span id="quest-count">1</span>
-				of
-				<span id="total-quest">5</span>
-			</div>
-		</h2>
-	</header>
-	<section id="game-area">
-		<img id="nes-controller" class="hide-after-start" src="images/nes-controller.png" usemap="#nesmap">
+		<meta charset="UTF-8">
+		<title>Vintage Video Game Quiz</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/objects.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Vintage Video Game Quiz</h1>
+			<h2>
+				<div id="start-text" class="hide-after-start">
+					Press Start
+				</div>
+				<div id="counter" class="start-hidden">
+					Question 
+					<span id="quest-count">1</span>
+					of
+					<span id="total-quest">5</span>
+				</div>
+			</h2>
+		</header>
+		<section id="game-area">
+			<img id="nes-controller" class="hide-after-start" src="images/nes-controller.png" usemap="#nesmap">
 		
-		<map name="nesmap">
-			<area shape="rect" coords="237,134,292,178" href="javascript:void(0)" onclick="startGame();">
-		</map>
-		<img id="tv" class="start-hidden" src="images/vintage-tv.png">
-		<div id="play-container" class="start-hidden">
-			<div id="question-container">
-				<span id="question">Which video game does this character appear in?</span>
+			<map name="nesmap">
+				<area shape="rect" coords="237,134,292,178" href="javascript:void(0)" onclick="startGame();">
+			</map>
+			<img id="tv" class="start-hidden" src="images/vintage-tv.png">
+			<div id="play-container" class="start-hidden">
+				<div id="question-container">
+					<span id="question">Which video game does this character appear in?</span>
+				</div>
+				<div id="selection-container">
+					<ul>
+						<li>
+							<button class="answer">Legend of Zelda: Ocarina of Time</button>
+						</li>
+						<li>
+							<button class="answer">Ghost 'n Goblins</button>
+						</li>
+						<li>
+							<button class="answer">Final Fantasy II</button>
+						</li>
+						<li>
+							<button class="answer">Legend of Zelda: A Link to the Past</button>
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div id="selection-container">
-				<ul>
-					<li>
-						<button class="answer">Legend of Zelda: Ocarina of Time</button>
-					</li>
-					<li>
-						<button class="answer">Ghost 'n Goblins</button>
-					</li>
-					<li>
-						<button class="answer">Final Fantasy II</button>
-					</li>
-					<li>
-						<button class="answer">Legend of Zelda: A Link to the Past</button>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</body>
+		</section>
+	</body>
 </html>
