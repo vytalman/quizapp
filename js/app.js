@@ -3,6 +3,10 @@ $(document).ready(function() {
 		document.getElementById("tv").src = tvImage;
 	}
 	
+	function loadQuestion() {
+		
+	}
+	
 	function startGame() {
 		$('.hide-after-start').fadeOut('slow');
 		$('.start-hidden').delay(900).fadeIn('slow');
